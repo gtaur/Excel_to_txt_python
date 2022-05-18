@@ -16,7 +16,7 @@ import glob
 userfolder = "HF469NN"
 folder_files = "C:/Users/"+ userfolder +"/OneDrive - EY/Documents/Py_file_folder/"
 
-# use glob to get all the csv files
+# use glob to get all the  files
 # in the folder
 path = folder_files
 xl_files = glob.glob(os.path.join(path, "*.xlsx"))
